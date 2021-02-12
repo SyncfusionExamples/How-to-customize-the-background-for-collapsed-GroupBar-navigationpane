@@ -1,7 +1,7 @@
 # How-to-customize-the-background-for-collapsed-GroupBar-navigationpane
 This repository contains the sample that how to customize the background for collapsed GroupBar navigationpane
 
-The color of collapsed navigation pane can changed at the runtime when mouse entered/Clicked, using  the GroupBar mouse event handler. In that event the FloatHighlightButtonBorderColor and FloatPressCloseButtonColor property used to update the color of Navigation pane.
+The color of collapsed navigation pane can be changed at the runtime when the mouse entered/Clicked, using the GroupBar mouse event handler. In that event, the FloatHighlightButtonBorderColor and FloatPressCloseButtonColor properties are used to update the color of the Navigation pane.
 
 ```C#:
 
