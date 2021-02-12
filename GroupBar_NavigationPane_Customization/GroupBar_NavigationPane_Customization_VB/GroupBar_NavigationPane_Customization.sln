@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GroupBar_NavigationPane_Customization", "GroupBar_NavigationPane_Customization.vbproj", "{AC655824-CD95-4608-89D5-9126C509609A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC655824-CD95-4608-89D5-9126C509609A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC655824-CD95-4608-89D5-9126C509609A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC655824-CD95-4608-89D5-9126C509609A}.Debug|x64.ActiveCfg = Debug|x64
+		{AC655824-CD95-4608-89D5-9126C509609A}.Debug|x64.Build.0 = Debug|x64
+		{AC655824-CD95-4608-89D5-9126C509609A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC655824-CD95-4608-89D5-9126C509609A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC655824-CD95-4608-89D5-9126C509609A}.Release|x64.ActiveCfg = Release|x64
+		{AC655824-CD95-4608-89D5-9126C509609A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66033338-98D0-4F65-9AEB-4BCFE6E4092C}
+	EndGlobalSection
+EndGlobal
