@@ -1,27 +1,42 @@
-# How-to-customize-the-background-for-collapsed-GroupBar-navigationpane
-This repository contains the sample that how to customize the background for collapsed GroupBar navigationpane
+# How to Customize the Background for Collapsed GroupBar Navigation Pane in WinForms
+This example demonstrates how to customize the highlight color for the collapsed navigation pane buttons in the Syncfusion WinForms GroupBar control. The GroupBar provides a navigation pane similar to Microsoft Outlook, and when collapsed, it displays a compact view with floating buttons. You can change the appearance of these buttons dynamically to match application themes or provide visual feedback on user interaction.
 
-The color of collapsed navigation pane can be changed at the runtime when the mouse entered/Clicked, using the GroupBar mouse event handler. In that event, the FloatHighlightButtonBorderColor and FloatPressCloseButtonColor properties are used to update the color of the Navigation pane.
+## Why This Is Useful
+- **Theme Customization**: Match your application’s color scheme.
+- **Dynamic Styling**: Change colors based on user actions or preferences.
+- **Improved UX**: Provide visual feedback when interacting with collapsed navigation panes.
 
-```C#:
+## Key Features Demonstrated
+- Change the highlight color of collapsed navigation pane buttons at runtime.
+- Handle _MouseClick_ event to apply custom styles.
+- Use Syncfusion’s built-in color properties like _FloatHighlightButtonColor_.
 
-//When collapsed navigation pane is clicked 
+## Example Code
 
-        private void GroupBar1_MouseClick(object sender, MouseEventArgs e)
-        {
-            Office2007BlueColors.Default.FloatPressCloseButtonColor = Color.Pink;
-        }
+```C#
+public partial class Form1 : MetroForm
+{
+    public Form1()
+    {
+        InitializeComponent();
+    }
+
+    private void GroupBar1_MouseClick(object sender, MouseEventArgs e)
+    {
+        // Change the highlight color for collapsed navigation pane buttons
+        Office2007BlueColors.Default.FloatHighlightButtonColor = Color.Pink;
+    }
+}
 ```
 
-
-```VB:
-
+```VB
 ' When collapsed navigation pane is clicked 
 Private Sub GroupBar1_MouseClick(ByVal sender As Object, ByVal e As MouseEventArgs)
 Office2007BlueColors.Default.FloatHighlightButtonColor = Color.Pink
 End Sub
 ```
 
-Output:
-
+## Output:
 ![GroupBar_NavigationPane_Customization](Output-GroupBar.gif)
+
+
